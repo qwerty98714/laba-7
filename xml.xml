@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-01-14T15:52:27+01:00">
+    <shop>
+        <name>NASA Rovers</name>
+        <company>NASA</company>
+        <url>https://www.nasa.gov/mars-rovers</url>
+        <currencies>
+            <currency id="USD" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Rovers</category>
+            <category id="2" parentId="1">Mars Rovers</category>
+        </categories>
+        <offers>
+            <offer id="curiosity01" available="true">
+                <url>https://www.nasa.gov/mars-rovers/curiosity</url>
+                <price>2500000000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>2</categoryId>
+                <picture>https://example.com/images/curiosity.jpg</picture>
+                <store>false</store>
+                <pickup>false</pickup>
+                <delivery>false</delivery>
+                <name>Марсоход Curiosity</name>
+                <vendor>NASA</vendor>
+                <param name="Миссия">Исследование поверхности Марса</param>
+                <param name="Энергетическая система">Ядерный реактор</param>
+                <param name="Вес">900 кг</param>
+                <param name="Габариты">3 м x 2,7 м x 2,2 м</param>
+                <param name="Научные инструменты">MastCam, ChemCam, Роботизированная рука</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
